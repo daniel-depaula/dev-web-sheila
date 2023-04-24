@@ -10,7 +10,7 @@ body{
 }
 
 nav.menu-lateral{
-    width: 60px;
+    width: 90px;
     height: 100%;
     background-image: linear-gradient(45deg, hsl(276, 100%, 35%), 
     rgb(157, 0, 248),
@@ -131,20 +131,64 @@ align-items: center;
 
 /*****/
 
-
 .container-carousel{ width: 100%;
     max-height: 800px;
 
 }
-
-
-.carousel-inner{ height: 40em;}
+.carousel-inner{ height: 50em;}
 
 
 
 
 /*88888888888 banner apresentação*/
 
-.bannerapresentacao{ 
-    width: 500px;;
+.banner-home{ 
+    width: 100%;
+}
+
+.banner-apresentacao{
+width: 100%;
+
+}
+
+
+/*88888 galeria*/
+
+.galeria{
+   margin: flex;
+    margin-left: 200px;
+   margin-top: 150px;
+    
+    height: 80px;
+    width: 200px;
+    text-align: center;
+    color: white;
+    border-radius: 10%;
+    font-size: 30px;   
+}
+
+.fundogaleria{
+    background: rgb(224, 156, 255);
+}
+
+
+.dropdown{ position: relative;
+}
+#botaoroxo{ background: rgb(139, 36, 199);
+            border-color: rgb(139, 36, 199);
+    
+}
+
+.dropdown-item{background: white;
+
+}
+
+.perfil{
+background-color: rgb(91, 22, 105);
+height: 100px;
+width: 100px;
+margin-left: 100px;
+color: white;
+font-size: 40px
+;
 }
